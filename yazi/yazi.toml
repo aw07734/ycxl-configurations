@@ -1,0 +1,23 @@
+[mgr]
+ratio = [1, 4, 3]
+sort_by = "natural"
+sort_sensitive = false
+sort_reverse = false
+sort_dir_first = true
+show_hidden = true
+[preview]
+wrap = "no"
+[opener]
+edit = [
+  { run = "fresh %s", block = true, for = "windows" },
+]
+explorer = [
+  { run = "explorer %s", orphan = true, for = "windows" },
+]
+[open]
+prepend_rules = [
+  { mime = "text/*", use = "edit" },
+  { mime = "folder/*", use = "explorer" },
+  { mime = "application/wine-extension-ini", use = "edit" },
+  { url = "*.log", use = "edit" }
+]

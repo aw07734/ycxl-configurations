@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>SpaceGray Light</string>
+	<key>settings</key>
+	<array>
+		<dict>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#EFF1F5</string>
+				<key>foreground</key>
+				<string>#2B303B</string>
+				<key>caret</key>
+				<string>#2B303B</string>
+				<key>selection</key>
+				<string>#C0C5CE</string>
+				<key>selectionForeground</key>
+				<string>#EFF1F5</string>
+				<key>lineHighlight</key>
+				<string>#DFE1E8</string>
+				<key>invisibles</key>
+				<string>{{FGDIM}}</string>
+				<key>bracketForeground</key>
+				<string>{{FGDIM}}</string>
+				<key>bracketOptions</key>
+				<string>underline</string>
+				<key>tagsForeground</key>
+				<string>#C85863</string>
+				<key>gutterForeground</key>
+				<string>{{FGDIM}}</string>
+				<key>guide</key>
+				<string>#C0C5CE</string>
+				<key>activeGuide</key>
+				<string>#C85863</string>
+				<key>stackGuide</key>
+				<string>{{FGDIM}}</string>
+				<key>foldMarker</key>
+				<string>{{FGDIM}}</string>
+			</dict>
+			<key>name</key>
+			<string>SpaceGray Light</string>
+			<key>scope</key>
+			<string>text, source</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Comment</string>
+			<key>scope</key>
+			<string>comment, punctuation.definition.comment</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>{{FGDIM}}</string>
+				<key>fontStyle</key>
+				<string>italic</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>String</string>
+			<key>scope</key>
+			<string>string, string.quoted, punctuation.definition.string</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#6F984C</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Number</string>
+			<key>scope</key>
+			<string>constant.numeric, constant.language</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#8B5B82</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Constant</string>
+			<key>scope</key>
+			<string>constant, variable.language, support.constant</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#EBCB8B</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Keyword</string>
+			<key>scope</key>
+			<string>keyword, storage, storage.type, keyword.control</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#5986B6</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Operator</string>
+			<key>scope</key>
+			<string>keyword.operator, punctuation.separator, punctuation.accessor</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#D18A74</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Function</string>
+			<key>scope</key>
+			<string>entity.name.function, support.function, meta.function-call</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#5BA8A5</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Type</string>
+			<key>scope</key>
+			<string>entity.name.type, entity.name.class, support.type, support.class</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#90604F</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Variable</string>
+			<key>scope</key>
+			<string>variable, variable.parameter, variable.other, meta.definition.variable</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#2B303B</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Invalid</string>
+			<key>scope</key>
+			<string>invalid, invalid.illegal</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#C85863</string>
+			</dict>
+		</dict>
+	</array>
+	<key>uuid</key>
+	<string>5A9E0006-0000-4000-8000-000000000006</string>
+</dict>
+</plist>

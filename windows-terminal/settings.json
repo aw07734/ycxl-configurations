@@ -1,0 +1,135 @@
+{
+    "$help": "https://aka.ms/terminal-documentation",
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "actions": 
+    [
+        {
+            "command": "closeWindow",
+            "id": "User.closeWindow"
+        },
+        {
+            "command": "closePane",
+            "id": "User.closePane"
+        },
+        {
+            "command": "quit",
+            "id": "User.quit"
+        }
+    ],
+    "copyFormatting": "none",
+    "copyOnSelect": false,
+    "defaultProfile": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+    "experimental.detectURLs": true,
+    "keybindings": 
+    [
+        {
+            "id": "Terminal.CopyToClipboard",
+            "keys": "ctrl+c"
+        },
+        {
+            "id": "Terminal.OpenNewTab",
+            "keys": "ctrl+t"
+        },
+        {
+            "id": "Terminal.PasteFromClipboard",
+            "keys": "ctrl+v"
+        },
+        {
+            "id": "Terminal.DuplicatePaneAuto",
+            "keys": "alt+shift+d"
+        },
+        {
+            "id": "Terminal.ClosePane",
+            "keys": "ctrl+w"
+        }
+    ],
+    "newTabMenu": 
+    [
+        {
+            "type": "remainingProfiles"
+        }
+    ],
+    "profiles": 
+    {
+        "defaults": 
+        {
+            "antialiasingMode": "cleartype",
+            "backgroundImage": null,
+            "backgroundImageOpacity": 0.2,
+            "colorScheme": "SpaceGray",
+            "cursorColor": null,
+            "cursorShape": "bar",
+            "font": 
+            {
+                "builtinGlyphs": false,
+                "face": "'JetBrainsMono Nerd Font', 'Sarasa Term SC'",
+                "features": {},
+                "size": 12
+            },
+            "opacity": 90,
+            "useAcrylic": false
+        },
+        "list": 
+        [
+            {
+                "commandline": "%SystemRoot%\\System32\\cmd.exe",
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "hidden": false,
+                "name": "\u547d\u4ee4\u63d0\u793a\u7b26"
+            },
+            {
+                "altGrAliasing": true,
+                "closeOnExit": "automatic",
+                "commandline": "D:\\Program Files\\Git\\bin\\bash.exe",
+                "cursorShape": "bar",
+                "font": 
+                {
+                    "size": 12
+                },
+                "guid": "{7f96f99e-331b-49eb-9563-85aba45b8d5f}",
+                "hidden": false,
+                "historySize": 9001,
+                "icon": "D:\\Program Files\\Git\\mingw64\\share\\git\\git-for-windows.ico",
+                "name": "Git Bash",
+                "padding": "8, 8, 8, 8",
+                "snapOnInput": true,
+                "startingDirectory": "%USERPROFILE%"
+            },
+            {
+                "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+                "hidden": false,
+                "name": "PowerShell",
+                "source": "Windows.Terminal.PowershellCore"
+            }
+        ]
+    },
+    "schemes": 
+    [
+        {
+            "background": "#2B303B",
+            "black": "#383C4A",
+            "blue": "#8FA1B3",
+            "brightBlack": "#5A6173",
+            "brightBlue": "#7FA1B3",
+            "brightCyan": "#96B5B4",
+            "brightGreen": "#99BD8E",
+            "brightPurple": "#B48EAD",
+            "brightRed": "#D08770",
+            "brightWhite": "#C0C5CE",
+            "brightYellow": "#EBCB8B",
+            "cursorColor": "#C0C5CE",
+            "cyan": "#96B5B4",
+            "foreground": "#C0C5CE",
+            "green": "#A3BE8C",
+            "name": "SpaceGray",
+            "purple": "#B48EAD",
+            "red": "#BF616A",
+            "selectionBackground": "#4F5B66",
+            "white": "#C0C5CE",
+            "yellow": "#EBCB8B"
+        }
+    ],
+    "tabWidthMode": "equal",
+    "theme": "dark",
+    "themes": []
+}

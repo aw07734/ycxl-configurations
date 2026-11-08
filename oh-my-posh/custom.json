@@ -1,0 +1,85 @@
+{
+  "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
+  "version": 3,
+  "console_title_template": "{{ .Folder }}",
+  "blocks": [
+    {
+      "type": "prompt",
+      "alignment": "left",
+      "newline": true,
+      "segments": [
+        {
+          "type": "os",
+          "style": "powerline",
+          "foreground": "#fff",
+          "background": "#0ca0d8",
+          "template": "{{ if .WSL }}WSL at {{ end }}{{.Icon}}",
+          "powerline_symbol": "\ue0b0",
+          "options": {
+            "windows": " \ue62a "
+          }
+        },
+        {
+          "type": "shell",
+          "style": "powerline",
+          "foreground": "#fff",
+          "background": "#a2c986",
+          "template": " {{ .Name }} ",
+          "powerline_symbol": "\ue0b0",
+          "options": {
+            "mapped_shell_names": {
+              "pwsh": "PS"
+            }
+          }
+        },
+        {
+          "type": "session",
+          "style": "plain",
+          "foreground": "#ffbebc",
+          "template": "{{ .UserName }}@{{ .HostName }} <#ffffff>at</>",
+          "options": {
+            "display_host": true
+          }
+        },
+        {
+          "type": "path",
+          "style": "plain",
+          "foreground": "#0CA0D8",
+          "template": " \uf07b {{ .AbsolutePWD }} ",
+          "options": {
+            "folder_separator_icon": "/",
+            "style": "full"
+          }
+        },
+        {
+          "type": "git",
+          "style": "diamond",
+          "foreground": "#ee79d1",
+          "template": " {{ .UpstreamIcon }}{{ .HEAD }}{{if .BranchStatus }} {{ .BranchStatus }}{{ end }}{{ if .Working.Changed }} \uf044 {{ .Working.String }}{{ end }}{{ if and (.Working.Changed) (.Staging.Changed) }} |{{ end }}{{ if .Staging.Changed }} \uf046 {{ .Staging.String }}{{ end }}{{ if gt .StashCount 0 }} \ueb4b {{ .StashCount }}{{ end }} ",
+          "options": {
+            "branch_icon": "\ue725 ",
+            "fetch_status": true
+          }
+        }
+      ]
+    },
+    {
+      "type": "prompt",
+      "alignment": "left",
+      "newline": true,
+      "segments": [
+        {
+          "type": "text",
+          "style": "plain",
+          "foreground": "#FFE45E",
+          "template": "\u279c "
+        }
+      ]
+    }
+  ],
+  "transient_prompt": {
+    "background": "transparent",
+    "foreground": "#FEF5ED",
+    "template": "\ue285 "
+  }
+}

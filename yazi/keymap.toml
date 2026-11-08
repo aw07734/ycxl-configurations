@@ -1,0 +1,10 @@
+[mgr]
+prepend_keymap = [
+    { on = [ "g", "1"], run = "cd C:", desc = "C:" },
+    { on = [ "g", "2"], run = "cd D:", desc = "D:" },
+    { on = [ "g", "3"], run = "cd E:", desc = "E:" },
+    { on = [ "g", "4"], run = "cd F:", desc = "F:" },
+    { on = [ "g", "h"], run = "cd ~", desc = "Home" },
+    { on = [ "g", "c"], run = "cd %APPDATA%/yazi/config", desc = "yazi's Config" },
+    { on = [ "g", "m"], run = "cd \"D:/Program Files/Magic Systems of Systems Architect\"", desc = "Magicdraw Install Home" }
+]
